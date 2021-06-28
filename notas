@@ -1,0 +1,8 @@
+git init -> inicia el repositorio
+git add -> agrega los cambios al repositorio
+git rm -> prepara el borrado de las modificaciones guardadas anteriormente
+git rm --cached -> elimina por completo el add que se habìa generado anteriormente
+git status -> permite verificar el estado actual del documento, informa si hay cambios y/o commits sin subir al repositorio
+git commit -m 'mensaje' -> realiza el cargue de los cambios hechos al repositorio 
+git config --list -> muestra la configuración de git en nuestro ordenador
+git config --global user.name nombre -> Cambia el nombre del usuario de la configuracion de git
