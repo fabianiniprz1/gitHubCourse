@@ -1,3 +1,3 @@
 Estoy es un archivo para realizar modificaciones, estoy intentando utilizar sólo la linea de comando
 Han pasado algunos dìas desde mi curso de VIM, y ya he olvidado varios comandos, que triste
-
+Por algun motivo no me quiere mostrar los cambios realizados en el archivo historia.txt
