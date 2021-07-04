@@ -6,3 +6,5 @@ git status -> permite verificar el estado actual del documento, informa si hay c
 git commit -m 'mensaje' -> realiza el cargue de los cambios hechos al repositorio 
 git config --list -> muestra la configuración de git en nuestro ordenador
 git config --global user.name nombre -> Cambia el nombre del usuario de la configuracion de git
+
+git log [nombre_archivo] -> permite ver el historial de cambios de un archivo
