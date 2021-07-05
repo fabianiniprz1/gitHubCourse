@@ -14,3 +14,7 @@ git log --stat -> permite observar el historial de commits mas detallado
 git checkout codigo_del_commit nombre_archivo.extesion_archivo -> permite ver el estado de un archivo en un commit determinado
 
 git checkout master nombre_archivo.extension_archivo -> permite regresar el archivo, al archivo que está en la rama master
+
+git commit -am "mensaje" -> permite hacer un commit sin necesidad de hacer un add previamente, pero sólo funciona con los archivo que ya estén cargados en le proyecto, no se puede con archivos nuevos.
+
+
