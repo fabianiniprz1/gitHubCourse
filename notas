@@ -21,5 +21,23 @@ git branch nombre -> crea una rama, una rama permite realizar modificaciones, si
 
 git merge nombre_rama -> unifica los cambios de una rama en otra, tener en cuenta que se debe hacer estando "parado" en la rama master, para unir los cambios realizados en otra... todo depende de que quieras.
 
+git log --all --graph --decorate --oneline -> permite ver de forma grafica, las modificaciones que se han realizado a las ramas, es decir, los commits
+
+alias nombre "comando" -> permite generar shortcuts para los comando en consola
+
+
+git tag -a nombre_version -m "mensaje" id_abreviado_commit -> sirve para crear versiones del programa desarrollado
+
+git tag -> permite ver todos los tag que se han creado
+
+git show-ref --tags -> permite ver todos los tag que se han creado, pero con el id del commit al que pertenecen
+
+cuando se crear un tag, luego se debe hacer un git pull origen master, y luego un git push origen master... luego, eso se va a poder ver reflejado en github
+
+cuando se crear un tag, luego se debe hacer un git pull origen master, y luego un git push origen master... luego, eso se va a poder ver reflejado en github
+
+git tag -d nombre_tag -> borra el tag que deseemos, del repositorio local
+
+git push origen :refs/tags/nombre_tag -> borra el tag del repositorio en la red
 
 
