@@ -40,4 +40,5 @@ git tag -d nombre_tag -> borra el tag que deseemos, del repositorio local
 
 git push origen :refs/tags/nombre_tag -> borra el tag del repositorio en la red
 
+gitk --> Muestra de forma grafica, que ha sucedido con todo el proyecto
 
