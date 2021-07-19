@@ -42,3 +42,6 @@ git push origen :refs/tags/nombre_tag -> borra el tag del repositorio en la red
 
 gitk --> Muestra de forma grafica, que ha sucedido con todo el proyecto
 
+"suponiendo que estamos trabajando en la red, con un proyecto que no es mio, lo puedo clonar, al momento en que quiera hacer push, debería hacer antes un pull del repositorio en internet, para esto, lo que debería hacer primero es git remote add nombre(upstream) link_repo, esto lo que va a hacer es crear otro origen de datos, diferente al que ya habiamos creado, permitiendo traer las actualizaciones del repositorio en internet"
+
+
