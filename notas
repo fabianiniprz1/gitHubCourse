@@ -52,4 +52,13 @@ git clean -f -> me permite borrar los archivos que no queremos en el repositorio
 
 git cherry-pick "codigo commit" -> nos paramos en la rama que queremos actualizar, y corremos este comando con el codigo del commite de otra rama, la cual no ha sido actualizada, es como traer mejoras no terminadas de una rama, asì como cuando se tiene un jefe muy cansón que no da tiempo de hacer las cosas
 
+git commit --amend -> sirve para arreglar un commit, ejemplo, mandé un commit pero me hizo falta hacer unas cosas, entonces las hago, y sobre escribo ese commit
 
+git reflog -> muestra todos los commit, es como un log, pero más cabrón
+
+git reset --HARD codigo_commit -> permite regresar a un commit donde todo estaba bueno
+
+git grep palabra -> te muestra donde estas utilizando esa palabra, es como un control B en excel
+
+
+git grep -n palabra -> te muestra donde estas utilizando esa palabra, es como un control B en excel, te adiciona el numero de la linea donde está la palabra
