@@ -46,4 +46,10 @@ gitk --> Muestra de forma grafica, que ha sucedido con todo el proyecto
 
 git stash -> sirve para guardar cambios en temporal, sin necesidad de hacer un commit, es un comando muy util, para no tener que estar bajando todo el repositorio para ver modificaciones
 
+git clean --dry-run -> me permite ver los archivos que se van a borrar, en caso de no quererlos en el repositorio
+
+git clean -f -> me permite borrar los archivos que no queremos en el repositorio
+
+git cherry-pick "codigo commit" -> nos paramos en la rama que queremos actualizar, y corremos este comando con el codigo del commite de otra rama, la cual no ha sido actualizada, es como traer mejoras no terminadas de una rama, asì como cuando se tiene un jefe muy cansón que no da tiempo de hacer las cosas
+
 
