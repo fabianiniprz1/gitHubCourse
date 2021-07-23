@@ -44,4 +44,6 @@ gitk --> Muestra de forma grafica, que ha sucedido con todo el proyecto
 
 "suponiendo que estamos trabajando en la red, con un proyecto que no es mio, lo puedo clonar, al momento en que quiera hacer push, debería hacer antes un pull del repositorio en internet, para esto, lo que debería hacer primero es git remote add nombre(upstream) link_repo, esto lo que va a hacer es crear otro origen de datos, diferente al que ya habiamos creado, permitiendo traer las actualizaciones del repositorio en internet"
 
+git stash -> sirve para guardar cambios en temporal, sin necesidad de hacer un commit, es un comando muy util, para no tener que estar bajando todo el repositorio para ver modificaciones
+
 
